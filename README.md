@@ -22,16 +22,16 @@ Ensure you have the following software installed on your system:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/yourusername/static-web-template.git
-    cd static-web-template
-    ```
+   ```bash
+   git clone https://github.com/yourusername/static-web-template.git
+   cd static-web-template
+   ```
 
 2. **Install dependencies:**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Running the Development Server
 
@@ -84,4 +84,3 @@ Automatically format code:
 bash
 
     npm run prettier:write
-
