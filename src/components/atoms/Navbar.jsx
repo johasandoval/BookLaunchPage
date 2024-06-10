@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-gold">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -30,20 +30,17 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a>Homepage</a>
-              </li>
-              <li>
-                <a>Portfolio</a>
-              </li>
-              <li>
-                <a>About</a>
-              </li>
+               <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sinopsis">Sinopsis</a></li>
+                <li><a href="#autor">Autor</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#comprar">Comprar</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
           </div>
         </div>
         <div className="navbar-center">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl font-cinzel">CA</a>
         </div>
         <div className="navbar-end">
           <button className="btn btn-ghost btn-circle">
