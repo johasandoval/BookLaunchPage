@@ -7,7 +7,6 @@ const Header = () => {
     <>
       <Navbar />
       <Hero />
-      
     </>
   );
 };
