@@ -40,7 +40,8 @@ To get a local copy of this project up and running, follow these steps:
    ```bash
    git clone https://github.com/your-username/BookLaunchPage.git
    cd BookLaunchPage
-Install dependencies:
+   Install dependencies:
+   ```
 
 bash
 
@@ -76,4 +77,3 @@ Linting and Formatting
     npm run lint: Lints the JavaScript and JSX files using ESLint.
     npm run prettier:check: Checks for formatting issues using Prettier.
     npm run prettier:write: Automatically fixes formatting issues using Prettier.
-
