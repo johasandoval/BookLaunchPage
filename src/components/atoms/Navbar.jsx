@@ -18,13 +18,14 @@ const Navbar = () => {
 
   const smoothScroll = (target) => {
     const element = document.querySelector(target);
-    const headerOffset = 50; 
-    const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+    const headerOffset = 50;
+    const elementPosition =
+      element.getBoundingClientRect().top + window.scrollY;
     const offsetPosition = elementPosition - headerOffset;
 
     window.scrollTo({
       top: offsetPosition,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 

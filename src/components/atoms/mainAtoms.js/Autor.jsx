@@ -3,8 +3,8 @@ import React from "react";
 const Autor = () => {
   return (
     <>
-      <section id="autor">
-        <h1 className="font-cinzel text-lg text-gold font-bold pt-8 xs:px-10 xl:px-24">
+      <section id="autor" className="hero min-h-screen flex justify-center items-center hero-content text-neutral-content flex flex-col md:flex-row md:items-center">
+        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xs:px-10 xl:px-24">
           Sobre el Autor
         </h1>
         <p className="text-roboto text-text pt-4 pb-8 xs:px-10 xl:px-24">

@@ -4,7 +4,7 @@ import coverBook from "../../../assets/images/coverBook.png";
 const Comprar = () => {
   return (
     <section id="comprar">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col p-12 md:flex-row items-center">
         <div className="md:w-1/3 md:mr-8 mb-4 md:mb-0">
           <img
             src={coverBook}
@@ -13,7 +13,7 @@ const Comprar = () => {
           />
         </div>
         <div className="md:w-2/3 md:ml-8">
-          <h2 className="font-cinzel text-2xl text-gold font-bold mb-4">
+          <h2 className="font-cinzel text-2xl text-gold font-bold mb-8">
             ¡Comprar AHORA!
           </h2>
           <form className="glass shadow-md rounded-lg p-4 flex flex-col space-y-4">
@@ -49,7 +49,7 @@ const Comprar = () => {
             />
             <input
               type="text"
-              placeholder="Fecha de vencimiento (MM/YY)"
+              placeholder="(MM/YY)"
               className="font-light font-roboto input-form rounded pl-2 font-sm"
             />
             <button

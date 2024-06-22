@@ -10,7 +10,7 @@ export default {
       colors: {
         primaryBlue: "#13222c", // Azul oscuro
         gold: "#B5AE8F", // Dorado
-        background: "#517A8B", // Gris Claro azulado
+        secundaryGray: "#517A8B", // Gris Claro azulado
         light: "#FFE684", // amarillo
         text: "#FFFFFF", // blanco
         action: "#fdb44d", // dorado

@@ -3,12 +3,11 @@ import React from "react";
 const Resenas = () => {
   return (
     <>
-      <section id="reseñas" >
+      <section id="reseñas" className="bg-secundaryGray p-12">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="font-cinzel text-2xl text-gold font-bold mb-8">
             Reseñas de Lectores
           </h2>
-
           <div className="flex flex-col gap-6 md:flex-row md:gap-12">
             <div className="flex flex-col items-center">
               <div className="rating rating-md flex mb-2">

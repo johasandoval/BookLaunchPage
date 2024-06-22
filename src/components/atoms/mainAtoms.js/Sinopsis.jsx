@@ -3,12 +3,14 @@ import React from "react";
 const Sinopsis = () => {
   return (
     <>
-      <section id="sinopsis">
-        
-        <h1 className="font-cinzel text-lg text-gold font-bold pt-8 xs:px-10 xl:px-24">
+      <section
+        id="sinopsis"
+        className="hero min-h-screen flex justify-center items-center hero-content text-neutral-content flex flex-col md:flex-row md:items-center"
+      >
+        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xs:px-10 xl:px-24">
           Sinopsis
         </h1>
-        <p className="text-roboto text-text pt-4 pb-8 xs:px-10 xl:px-24">
+        <p className="text-roboto text-text pt-4 pb-8 xs:px-16 xl:px-24">
           En el mundo de Luminara, la luz y la oscuridad han coexistido en un
           frágil equilibrio desde tiempos inmemoriales. Pero ahora, una amenaza
           oscura se cierne sobre el horizonte, poniendo en peligro todo lo que
@@ -38,8 +40,7 @@ const Sinopsis = () => {
           peligros, donde la luz y la oscuridad luchan por la supremacía, y
           donde una joven guardiana debe encontrar su verdadero poder para
           salvar todo lo que ama.
-        </p>   
-    
+        </p>
       </section>
     </>
   );

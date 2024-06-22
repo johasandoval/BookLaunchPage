@@ -7,13 +7,13 @@ const Contacto = () => {
   };
 
   return (
-    <section id="contacto">
-      <div className="max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center">
+    <section id="contacto" className="border-4 border-t-gold">
+      <div className="max-w-4xl mx-auto px-8 pt-4 flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
           <h2 className="font-cinzel text-2xl text-gold font-bold mb-6 sx:text-xs">
             ¡Contáctanos!
           </h2>
-          <p className="text-gold leading-relaxed sx:text-xs xl:text-lg pr-8">
+          <p className="text-gold text-roboto sx:text-xs xl:text-lg pr-8">
             ¿Deseas compartir tus pensamientos o descubrir más sobre los
             misterios que aguardan en los
             <strong className="text-gold font-cinzel">
@@ -25,7 +25,7 @@ const Contacto = () => {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="glass shadow-md rounded-lg p-6 w-full md:w-1/2 md:ml-4 mt-4 md:mt-0"
+          className="glass shadow-md rounded-lg p-6 w-full md:w-1/2 md:ml-4 mt-4 mb-12"
         >
           <div className="mb-2">
             <input
