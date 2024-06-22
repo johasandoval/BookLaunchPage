@@ -3,7 +3,7 @@ import coverBook from "../../../assets/images/coverBook.png";
 
 const Comprar = () => {
   return (
-    <section id="comprar" className="bg-bg-pattern py-16">
+    <section id="comprar">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/3 md:mr-8 mb-4 md:mb-0">
           <img

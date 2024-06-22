@@ -8,8 +8,7 @@ export default {
         // => @media (min-width: 476px) { ... }
       },
       colors: {
-        primaryB: "#13222c", // Azul oscuro
-        primaryD: "#0C1915", // Azul verde Oscuro
+        primaryBlue: "#13222c", // Azul oscuro
         gold: "#B5AE8F", // Dorado
         background: "#517A8B", // Gris Claro azulado
         light: "#FFE684", // amarillo
