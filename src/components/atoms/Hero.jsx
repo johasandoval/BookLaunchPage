@@ -1,5 +1,4 @@
 import React from "react";
-import bground from "../../assets/images/backgroundStars.jpg";
 import coverBook from "../../assets/images/coverBook.png";
 
 const Hero = () => {
@@ -15,14 +14,7 @@ const Hero = () => {
 
   return (
     <section id="inicio">
-      <div
-        className="hero min-h-screen flex justify-center items-center"
-        style={{
-          backgroundImage: `url(${bground})`,
-        }}
-      >
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-neutral-content flex flex-col md:flex-row md:items-center">
+      
           <div className="max-w-md md:mr-10">
             <h1 className="mb-5 text-3xl font-bold text-gold font-cinzel">
               Caminos de la aurora
@@ -50,8 +42,7 @@ const Hero = () => {
             </button>
           </div>
           <img className="md:ml-10" src={coverBook} alt="Cover Book" />
-        </div>
-      </div>
+       
     </section>
   );
 };
