@@ -4,7 +4,7 @@ const Sinopsis = () => {
   return (
     <>
       <section id="sinopsis">
-        <div className="bg-bg-pattern">
+        
         <h1 className="font-cinzel text-lg text-gold font-bold pt-8 xs:px-10 xl:px-24">
           Sinopsis
         </h1>
@@ -39,7 +39,7 @@ const Sinopsis = () => {
           donde una joven guardiana debe encontrar su verdadero poder para
           salvar todo lo que ama.
         </p>   
-        </div>
+    
       </section>
     </>
   );
