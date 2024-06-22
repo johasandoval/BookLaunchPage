@@ -1,5 +1,6 @@
 import React from "react";
 import coverBook from "../../../assets/images/coverBook.png";
+import bground from "../../../assets/images/backgroundStars.jpg";
 
 const Comprar = () => {
   return (
