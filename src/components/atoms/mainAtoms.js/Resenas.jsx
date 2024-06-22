@@ -1,5 +1,4 @@
 import React from "react";
-import bground from "../../../assets/images/backgroundStars.jpg";
 
 const Resenas = () => {
   return (
@@ -7,9 +6,6 @@ const Resenas = () => {
       <section
         id="reseñas"
         className="bg-background py-16"
-        style={{
-          backgroundImage: `url(${bground})`,
-        }}
       >
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="font-cinzel text-2xl text-gold font-bold mb-8">
