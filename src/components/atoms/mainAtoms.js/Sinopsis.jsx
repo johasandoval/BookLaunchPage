@@ -1,16 +1,9 @@
 import React from "react";
-import bground from "../../../assets/images/backgroundStars.jpg";
 
 const Sinopsis = () => {
   return (
     <>
-      <section
-        id="sinopsis"
-        className="hero min-h-screen flex justify-center items-center"
-        style={{
-          backgroundImage: `url(${bground})`,
-        }}
-      >
+      <section id="sinopsis">
         <h1 className="font-cinzel text-lg text-gold font-bold pt-8 xs:px-10 xl:px-24">
           Sinopsis
         </h1>
