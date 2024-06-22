@@ -3,7 +3,7 @@ import React from "react";
 const Sinopsis = () => {
   return (
     <>
-      <section id="sinopsis">
+      <section id="sinopsis" className="bg-bg-pattern" >
         <h1 className="font-cinzel text-lg text-gold font-bold pt-8 xs:px-10 xl:px-24">
           Sinopsis
         </h1>
