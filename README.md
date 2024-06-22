@@ -1,48 +1,68 @@
-# Static Web Template
+# BookLaunchPage
 
-This is a static web template built with React, Vite, Tailwind CSS, and DaisyUI.
+BookLaunchPage is a React-based web application designed for the launch of a fantasy book titled "Caminos de la Aurora." It features various sections such as synopsis, author details, reviews, purchasing options, and a contact form. The project utilizes modern web development tools including Vite for development and bundling, React Router for navigation, and Tailwind CSS for styling.
+
+Visit the live deployment: [BookLaunchPage Deployment](https://booklaunchpage.netlify.app/)
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the Development Server](#running-the-development-server)
-- [Building the Project](#building-the-project)
-- [Serving the Built Project](#serving-the-built-project)
-- [Formatting Code](#formatting-code)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Development](#development)
+- [Build](#build)
+- [Linting and Formatting](#linting-and-formatting)
 
-## Prerequisites
+## Features
 
-Ensure you have the following software installed on your system:
+- **Homepage:** Introduction to the fantasy book "Caminos de la Aurora" with background information and purchase button.
+- **Synopsis:** Detailed summary of the book's plot and setting.
+- **Author:** Information about the author JSal.
+- **Reviews:** User testimonials and reviews of the book.
+- **Purchase:** Seamless purchase experience with a form for entering personal and payment details.
+- **Contact:** Form for contacting the website administrators regarding inquiries or feedback.
 
-- [Node.js](https://nodejs.org/en/download/) (version 14 or later)
-- npm (comes with Node.js)
+## Technologies Used
 
-## Installation
+- React v18.2.0
+- React Router DOM v6.23.1
+- Tailwind CSS v3.4.4
+- Vite v5.2.0
+- Smoothscroll Polyfill v0.4.4
+- DaisyUI v4.12.2
+
+## Getting Started
+
+To get a local copy of this project up and running, follow these steps:
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/static-web-template.git
-   cd static-web-template
-   ```
+   git clone https://github.com/your-username/BookLaunchPage.git
+   cd BookLaunchPage
+Install dependencies:
 
-2. **Install dependencies:**
+bash
 
-   ```bash
-   npm install
-   ```
+npm install
 
-## Running the Development Server
+Start the development server:
 
-To start the development server and run the application locally:
+bash
 
-```bash
-npm run dev
-```
+    npm run dev
 
-Open your browser and navigate to http://localhost:3000 to see the application.
-Building the Project
+    Open your browser and navigate to http://localhost:3000.
+
+Development
+
+During development, you can use the following scripts:
+
+    npm run dev: Starts the development server with hot reloading.
+    npm run build: Builds the project for production.
+    npm run preview: Previews the production build locally.
+
+Build
 
 To build the project for production:
 
@@ -50,37 +70,10 @@ bash
 
 npm run build
 
-The output will be in the dist directory.
-Serving the Built Project
+This command bundles and optimizes the project files into the dist directory.
+Linting and Formatting
 
-To serve the built project locally, you can use a static server such as serve.
+    npm run lint: Lints the JavaScript and JSX files using ESLint.
+    npm run prettier:check: Checks for formatting issues using Prettier.
+    npm run prettier:write: Automatically fixes formatting issues using Prettier.
 
-    Install serve (if not already installed):
-
-    bash
-
-npm install -g serve
-
-Serve the dist directory:
-
-bash
-
-    npx serve dist
-
-    This will start a local server and you can access the application at http://localhost:3000.
-
-Formatting Code
-
-This project uses Prettier for code formatting. You can check and format the code with the following scripts:
-
-    Check code formatting:
-
-    bash
-
-npm run prettier:check
-
-Automatically format code:
-
-bash
-
-    npm run prettier:write
