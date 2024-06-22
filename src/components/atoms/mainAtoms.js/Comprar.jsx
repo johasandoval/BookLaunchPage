@@ -1,16 +1,9 @@
 import React from "react";
 import coverBook from "../../../assets/images/coverBook.png";
-import bground from "../../../assets/images/backgroundStars.jpg";
 
 const Comprar = () => {
   return (
-    <section
-      id="comprar"
-      className="bg-bg-pattern py-16"
-      style={{
-        backgroundImage: `url(${bground})`,
-      }}
-    >
+    <section id="comprar" className="bg-bg-pattern py-16">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/3 md:mr-8 mb-4 md:mb-0">
           <img

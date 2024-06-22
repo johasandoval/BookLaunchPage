@@ -1,5 +1,5 @@
 import React from "react";
-import bground from "../../../assets/images/backgroundStars.jpg";
+import bground from "../../assets/images/backgroundStars.jpg";
 
 const Autor = () => {
   return (
