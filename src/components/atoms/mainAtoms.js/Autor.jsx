@@ -1,16 +1,9 @@
 import React from "react";
-import bground from "../../assets/images/backgroundStars.jpg";
 
 const Autor = () => {
   return (
     <>
-      <section
-        id="autor"
-        className="bg-bg-pattern py-16"
-        style={{
-          backgroundImage: `url(${bground})`,
-        }}
-      >
+      <section id="autor" className="bg-bg-pattern py-16">
         <h1 className="font-cinzel text-lg text-gold font-bold pt-8 xs:px-10 xl:px-24">
           Sobre el Autor
         </h1>

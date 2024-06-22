@@ -8,9 +8,9 @@ import Contacto from "../atoms/mainAtoms.js/Contacto";
 const Main = () => {
   return (
     <>
-        <Sinopsis />
-        <Autor />
-        <Resenas />
+      <Sinopsis />
+      <Autor />
+      <Resenas />
       <Comprar />
       <Contacto />
     </>
