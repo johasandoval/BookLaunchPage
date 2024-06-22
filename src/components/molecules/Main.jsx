@@ -8,9 +8,11 @@ import Contacto from "../atoms/mainAtoms.js/Contacto";
 const Main = () => {
   return (
     <>
-      <Sinopsis />
-      <Autor />
-      <Resenas />
+      <div className="bg-bg-pattern bg-contain bg-center hero-content flex flex-col">
+        <Sinopsis />
+        <Autor />
+        <Resenas />
+      </div>
       <Comprar />
       <Contacto />
     </>

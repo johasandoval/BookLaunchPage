@@ -3,7 +3,7 @@ import React from "react";
 const Autor = () => {
   return (
     <>
-      <section id="autor" className="bg-bg-pattern py-16">
+      <section id="autor">
         <h1 className="font-cinzel text-lg text-gold font-bold pt-8 xs:px-10 xl:px-24">
           Sobre el Autor
         </h1>

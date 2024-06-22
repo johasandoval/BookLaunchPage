@@ -7,7 +7,7 @@ const Contacto = () => {
   };
 
   return (
-    <section id="contacto" className="bg-bg-pattern py-4">
+    <section id="contacto" className="bg-bg-pattern py-8">
       <div className="max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
           <h2 className="font-cinzel text-2xl text-gold font-bold mb-6 sx:text-xs">
