@@ -8,19 +8,13 @@ const Contacto = () => {
 
   return (
     <section id="contacto" className="border-4 border-t-gold">
-      <div className="max-w-4xl mx-auto px-8 pt-4 flex flex-col md:flex-row items-center">
+      <div className="max-w-4xl mx-auto px-8 pt-4 flex flex-col md:flex-row items-center xs:px-4">
         <div className="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
-          <h2 className="font-cinzel text-2xl text-gold font-bold mb-6 sx:text-xs">
+          <h2 className="font-cinzel text-2xl text-gold font-bold mb-6">
             ¡Contáctanos!
           </h2>
-          <p className="text-gold text-roboto sx:text-xs xl:text-lg pr-8">
-            ¿Deseas compartir tus pensamientos o descubrir más sobre los
-            misterios que aguardan en los
-            <strong className="text-gold font-cinzel">
-              {" "}
-              "Caminos de la Aurora"
-            </strong>
-            ? ¡Haznos llegar tus mensajes y dudas!
+          <p className="text-gold text-roboto xs:text-justify px-2 xl:text-lg xl:pr-8">
+            ¿Deseas compartir tus pensamientos o descubrir más sobre los misterios que aguardan en <strong className="text-gold font-cinzel"> {" "} "Caminos de la Aurora"</strong>? ¡Haznos llegar tus mensajes y dudas!
           </p>
         </div>
         <form

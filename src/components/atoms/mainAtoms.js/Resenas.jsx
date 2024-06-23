@@ -3,7 +3,7 @@ import React from "react";
 const Resenas = () => {
   return (
     <>
-      <section id="reseñas" className="bg-secundaryGray p-12">
+      <section id="reseñas" className="bg-secundaryGray p-12 xs:px-2">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="font-cinzel text-2xl text-gold font-bold mb-8">
             Reseñas de Lectores

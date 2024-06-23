@@ -19,7 +19,7 @@ const Hero = () => {
           <h1 className="xs:pt-8 text-3xl font-bold text-gold font-cinzel">
             Caminos de la aurora
           </h1>
-          <p className="my-12 text-roboto">
+          <p className="xs:my-4 sm:my-12 text-roboto">
             Descubre un mundo de magia y aventura en{" "}
             <strong className="font-cinzel text-gold">
               "Caminos de la aurora"
@@ -40,7 +40,7 @@ const Hero = () => {
             ¡Comprar Ahora!
           </button>
         </div>
-        <img className="md:ml-10" src={coverBook} alt="Cover Book" />
+        <img className="md:ml-10 xs:mt-8" src={coverBook} alt="Cover Book" />
       </div>
     </section>
   );

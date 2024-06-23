@@ -12,7 +12,7 @@ const Comprar = () => {
             className="w-full rounded-xl shadow-lg pb-8"
           />
         </div>
-        <div className="md:w-2/3 md:ml-8">
+        <div className="xs:w-5/6 md:w-2/3 md:ml-8">
           <h2 className="font-cinzel text-2xl text-gold font-bold mb-8">
             ¡Comprar AHORA!
           </h2>

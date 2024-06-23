@@ -7,10 +7,10 @@ const Sinopsis = () => {
         id="sinopsis"
         className="hero min-h-screen flex justify-center items-center hero-content text-neutral-content flex flex-col md:flex-row md:items-center"
       >
-        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xs:px-10 xl:px-24">
+        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xs:pt-2 xl:px-24">
           Sinopsis
         </h1>
-        <p className="text-roboto text-text pt-4 pb-8 xs:px-16 xl:px-24">
+        <p className="text-roboto text-text pt-4 pb-8 xs:px-2 pt-2 xl:px-24">
           En el mundo de Luminara, la luz y la oscuridad han coexistido en un
           frágil equilibrio desde tiempos inmemoriales. Pero ahora, una amenaza
           oscura se cierne sobre el horizonte, poniendo en peligro todo lo que
