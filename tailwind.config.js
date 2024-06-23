@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: "476px",
+        xs: "375px",
         // => @media (min-width: 476px) { ... }
       },
       colors: {

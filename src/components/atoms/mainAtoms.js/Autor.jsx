@@ -4,10 +4,10 @@ const Autor = () => {
   return (
     <>
       <section id="autor" className="hero min-h-screen flex justify-center items-center hero-content text-neutral-content flex flex-col md:flex-row md:items-center">
-        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xs:px-10 xl:px-24">
+        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xl:px-24">
           Sobre el Autor
         </h1>
-        <p className="text-roboto text-text pt-4 pb-8 xs:px-10 xl:px-24">
+        <p className="text-roboto text-text pt-4 pb-8 xs:px-2 xl:px-24">
           <strong className="font-cinzel text-gold">
             JSal - El Arquitecto de Mundos Fantásticos
           </strong>
