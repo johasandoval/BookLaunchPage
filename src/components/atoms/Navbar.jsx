@@ -88,7 +88,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-center">
-        <a className="text-sm font-cinzel btn btn-ghost content-center lg:block hidden">
+        <a href="#inicio" className="text-sm font-cinzel btn btn-ghost content-center lg:block hidden">
           Caminos de la Aurora
         </a>
       </div>

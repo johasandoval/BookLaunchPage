@@ -3,11 +3,11 @@ import React from "react";
 const Autor = () => {
   return (
     <>
-      <section id="autor" className="hero min-h-screen flex justify-center items-center hero-content text-neutral-content flex flex-col md:flex-row md:items-center">
-        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xl:px-24">
+      <section id="autor" className="hero min-h-screen flex justify-center items-center hero-content text-neutral-content flex flex-col xs:pt-2 md:flex-row md:items-center md:border-t-4 md:border-t-gold">
+        <h1 className="font-cinzel text-2xl text-gold font-bold pt-8 xs:pt-2 xl:px-24">
           Sobre el Autor
         </h1>
-        <p className="text-roboto text-text pt-4 pb-8 xs:px-2 xl:px-24">
+        <p className="text-roboto text-text pb-8 xs:px-2 md:pt-8 ml-8 pb-2 xl:px-24 pt-4">
           <strong className="font-cinzel text-gold">
             JSal - El Arquitecto de Mundos Fantásticos
           </strong>

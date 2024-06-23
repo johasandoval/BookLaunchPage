@@ -15,15 +15,15 @@ const Hero = () => {
   return (
     <section id="inicio">
       <div className="hero min-h-screen flex justify-center items-center hero-content text-neutral-content flex flex-col md:flex-row md:items-center">
-        <div className="max-w-md md:ml-10">
-          <h1 className="xs:pt-8 text-3xl font-bold text-gold font-cinzel">
+        <div className="max-w-md md:ml-2">
+          <h1 className="xs:pt-8 md:pt-2 text-3xl font-bold text-gold font-cinzel">
             Caminos de la aurora
           </h1>
           <p className="xs:my-4 sm:my-12 text-roboto">
             Descubre un mundo de magia y aventura en{" "}
             <strong className="font-cinzel text-gold">
               "Caminos de la aurora"
-            </strong>
+            </strong>{" "}
             , la nueva novela fantástica de{" "}
             <strong className="font-cinzel text-gold">JSal</strong> Sigue la
             travesía de{" "}
@@ -40,7 +40,7 @@ const Hero = () => {
             ¡Comprar Ahora!
           </button>
         </div>
-        <img className="md:ml-10 xs:mt-8" src={coverBook} alt="Cover Book" />
+        <img className="md:w-96 xs:mt-8" src={coverBook} alt="Cover Book" />
       </div>
     </section>
   );
