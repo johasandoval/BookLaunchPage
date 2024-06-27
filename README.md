@@ -41,7 +41,7 @@ To get a local copy of this project up and running, follow these steps:
    git clone https://github.com/your-username/BookLaunchPage.git
    cd BookLaunchPage
    Install dependencies:
-   ```
+  
 
 bash
 
@@ -54,7 +54,7 @@ bash
     npm run dev
 
     Open your browser and navigate to http://localhost:3000.
-
+ ```
 Development
 
 During development, you can use the following scripts:
